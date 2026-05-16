@@ -1,0 +1,40 @@
+{
+  "name": "simple-master-ui",
+  "version": "0.1.0",
+  "description": "A component library for Master CSS — pure HTML classes, no JS, dark/light theme support.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "master-css",
+    "ui",
+    "components",
+    "dark-mode",
+    "design-system",
+    "no-js"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@master/css": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@master/css": "^1.37.8",
+    "typescript": "^5.9.3"
+  }
+}
