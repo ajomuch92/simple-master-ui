@@ -13,7 +13,8 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
